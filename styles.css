@@ -1,0 +1,136 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(57, 57, 57);
+}
+
+.banner{
+    width: 100%;
+    height: 130px;
+    background-size: cover;
+}
+
+.headerbar{
+    display: flex;
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nameheader{
+    width: 120px;
+    cursor: pointer;
+    color: white;
+    font-size: 25px;
+    text-align: justify;
+    text-transform: uppercase;
+}
+
+.headerbar ul li{
+    list-style: none;
+    display: grid;
+    margin: 0 5%;
+    color: burlywood;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.headerbar ul li a{
+    text-decoration: none;
+    color: burlywood;
+    text-transform: uppercase;
+}
+
+.headerbar ul li:hover::after{
+    width: 100%;
+}
+
+.headerbar ul li::after{
+    content: '';
+    height: 1px;
+    width: 0%;
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    background: #d37d3c89;
+    transition: 0.5s;
+}
+
+.requirements{
+    color: white;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+.requirements h1{
+    padding-top: 100px;
+    color: beige;
+    font-size: 20px;
+}
+
+.requirements h2{
+    padding: 5px 5px;
+    color: white;
+    font-size: 15px;
+}
+
+.requirements button{
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #0b4e7b;
+    background-color: rgb(128, 128, 128);
+    color: white;
+    cursor: pointer;
+}
+
+.requirements h6{
+    font-size: 3px;
+}
+
+.requirements h3{
+    padding-top: 20px;
+    font-size: 3px;
+}
+
+.requirements h4{
+    font-size: 3px;
+}
+
+.requirements h5{
+    font-size: 3px;
+}
+
+img{
+    padding-top: 10px;
+    height: 400px;
+    width: auto;
+}
+
+#hello{
+    text-decoration: none;
+    color: beige;
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+
+.docform{
+    color: white;
+    text-align: center;
+    padding-top: 40px;
+}
+
+
+
+
+
+
+
